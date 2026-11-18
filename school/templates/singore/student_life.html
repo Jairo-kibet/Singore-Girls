@@ -1,0 +1,672 @@
+{% extends "singore/index.html" %}
+{% load static %}
+{% block current_page %}Student Life{% endblock current_page %}
+{% block header_link %}
+
+{% endblock header_link %}
+
+{% block body %}
+{% block navigation %}
+{{ block.super }}
+{% endblock navigation %}
+
+
+
+    <!-- Introduction Start -->
+    <section class="container student-life-intro py-5">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+                <div class="student-life-image-wrapper">
+                    <img src="{% static 'Singore/img/s2.jpg' %}"
+                         alt="Students participating in school activities"
+                         class="img-fluid student-life-main-image">
+
+                    <div class="student-life-image-caption">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <strong>Growing Together</strong>
+                            <span>Learning through participation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="section-title text-start mb-4">
+
+                    <h4 class="sub-title pe-3 mb-0">
+                        Student Experience
+                    </h4>
+
+                    <h1 class="display-5 mb-4">
+                        Building Character Beyond the Classroom
+                    </h1>
+
+                </div>
+
+                <p class="student-life-intro-text">
+                    At Singore Girls Senior School, student life is an
+                    important part of the learning experience. We believe
+                    that education extends beyond academic lessons to include
+                    personal development, creativity, leadership and
+                    responsible citizenship.
+                </p>
+
+                <p class="student-life-intro-text">
+                    Through clubs, societies, sports, games and spiritual
+                    activities, students are encouraged to explore their
+                    interests, discover their abilities and develop
+                    meaningful relationships with others.
+                </p>
+
+                <p class="student-life-intro-text">
+                    These experiences help nurture confidence, teamwork,
+                    discipline, resilience and a strong sense of belonging,
+                    preparing learners to become responsible and productive
+                    members of society.
+                </p>
+
+                <!-- <div class="student-life-highlight">
+                    <i class="fas fa-medal"></i>
+                    <span>
+                        Developing well-rounded learners with the confidence
+                        to make a positive difference.
+                    </span>
+                </div> -->
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Introduction End -->
+
+
+    <!-- Clubs and Societies Start -->
+    <section class="clubs-section py-5" id="clubs">
+
+        <div class="container py-4">
+
+            <div class="section-title text-center mb-5">
+              <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0">
+                    Explore Your Interests
+                </h4>
+                </div>
+
+                <h1 class="display-5 mb-3">
+                    Our Clubs & Societies
+                </h1>
+
+                <p class="clubs-section-description">
+                    Empowering students to discover talents, develop
+                    leadership skills and build lasting friendships
+                    through active participation.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Scouts -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-campground"></i>
+                        </div>
+
+                        <h4>Scouts Club</h4>
+
+                        <p>
+                            Developing responsibility and leadership through
+                            camping, first aid, outdoor activities and
+                            community service.
+                        </p>
+
+                        <a href="#student-development" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Music and Drama -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-masks-theater"></i>
+                        </div>
+
+                        <h4>Music & Drama</h4>
+
+                        <p>
+                            Encouraging creativity through singing, acting,
+                            poetry, dance and drama festivals.
+                        </p>
+
+                        <a href="#student-development" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Journalism -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+
+                        <h4>Journalism Club</h4>
+
+                        <p>
+                            Building communication and media skills through
+                            news writing, photography and reporting.
+                        </p>
+
+                        <a href="#student-development" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Science -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+
+                        <h4>Science Club</h4>
+
+                        <p>
+                            Inspiring innovation and curiosity through
+                            experiments, research and science congress.
+                        </p>
+
+                        <a href="#student-development" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Debate -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+
+                        <h4>Debate Club</h4>
+
+                        <p>
+                            Developing public speaking, critical thinking,
+                            confidence and effective communication.
+                        </p>
+
+                        <a href="#student-development" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Welfare -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+
+                        <h4>Welfare Club</h4>
+
+                        <p>
+                            Promoting kindness, peer support, responsibility
+                            and outreach within the school community.
+                        </p>
+
+                        <a href="#student-development" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Christian Union -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-cross"></i>
+                        </div>
+
+                        <h4>Christian Union</h4>
+
+                        <p>
+                            Encouraging spiritual growth through Bible study,
+                            prayer, worship and fellowship.
+                        </p>
+
+                        <a href="#chaplaincy" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Sports -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="club-card">
+                        <div class="club-icon">
+                            <i class="fas fa-running"></i>
+                        </div>
+
+                        <h4>Sports Club</h4>
+
+                        <p>
+                            Promoting physical fitness, teamwork, discipline
+                            and healthy competition through sports.
+                        </p>
+
+                        <a href="#sports" class="club-read-more">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Clubs and Societies End -->
+
+
+    <!-- Student Development Banner Start -->
+    <section class="student-development-banner" id="student-development">
+
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-8">
+                    <span class="development-label">
+                        MORE THAN ACADEMICS
+                    </span>
+
+                    <h2>
+                        Every Talent Deserves an Opportunity to Shine.
+                    </h2>
+
+                    <p>
+                        Participation in co-curricular activities helps
+                        students discover their potential, develop new
+                        abilities and prepare for life beyond school.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#clubs" class="development-btn">
+                        Discover Activities
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Student Development Banner End -->
+
+
+    <!-- Chaplaincy Start -->
+    <section class="chaplaincy-section py-5" id="chaplaincy">
+
+        <div class="container py-4">
+
+            <div class="row align-items-center g-5">
+
+                <!-- Chaplain Image -->
+                <div class="col-lg-5">
+
+                    <div class="chaplaincy-image-wrapper">
+
+                        <img src="{% static 'singore/img/ava.jpg' %}"
+                             alt="School chaplain"
+                             class="img-fluid chaplaincy-image">
+
+                        <div class="chaplaincy-image-caption">
+                            <span>SPIRITUAL GUIDANCE</span>
+                            <h4>Chaplaincy Department</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Chaplaincy Content -->
+                <div class="col-lg-7">
+
+                    <div class="section-title text-start mb-4">
+                     <div class="sub-style">
+                        <h4 class="sub-title pe-3 mb-0">
+                            Faith & Spiritual Growth
+                        </h4>
+                        </div>
+
+                        <h1 class="display-5 mb-3">
+                            Welcome to the Chaplaincy Department
+                        </h1>
+
+                    </div>
+
+                    <p class="chaplaincy-intro">
+                        The Chaplaincy Department provides spiritual
+                        guidance and encouragement to students and staff,
+                        nurturing a community founded on faith, integrity,
+                        compassion and mutual respect.
+                    </p>
+
+                    <p>
+                        Through prayer meetings, Bible study, worship,
+                        fellowship and outreach activities, students are
+                        encouraged to grow spiritually and develop values
+                        that guide their daily lives.
+                    </p>
+
+                    <p>
+                        The chaplaincy also provides opportunities for
+                        students to strengthen friendships, support one
+                        another and develop leadership through service.
+                        It encourages learners to live responsibly, respect
+                        others and contribute positively to the school
+                        and wider community.
+                    </p>
+
+                    <p>
+                        We believe that spiritual development is an
+                        important part of holistic education, helping
+                        students build character and find purpose as
+                        they prepare for the future.
+                    </p>
+
+
+                    <!-- Bible Verse -->
+                    <!-- <div class="chaplaincy-verse">
+
+                        <i class="fas fa-quote-left"></i>
+
+                        <p>
+                            "So then, just as you received Christ Jesus
+                            as Lord, continue to live your lives in him,
+                            rooted and built up in him, strengthened in
+                            the faith as you were taught, and overflowing
+                            with thankfulness."
+                        </p>
+
+                        <strong>Colossians 2:6–7</strong>
+
+                    </div> -->
+
+
+                    <div class="chaplaincy-signature">
+                        <span>Chaplaincy Department</span>
+                        <h5>School Chaplain</h5>
+                        <small>Singore Girls Senior School</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Chaplaincy End -->
+
+
+    <!-- Sports and Games Start -->
+    <section class="sports-section py-5" id="sports">
+
+        <div class="container py-4">
+
+            <div class="section-title text-center mb-5">
+
+                <h4 class="sub-title px-3 mb-0">
+                    Fitness, Teamwork & Excellence
+                </h4>
+
+                <h1 class="display-5 mb-3">
+                    Sports & Games
+                </h1>
+
+                <p class="sports-intro">
+                    We believe that sports play a vital role in promoting
+                    physical fitness, teamwork, discipline, leadership
+                    and healthy competition among our students.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Football -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/s4.jpg' %}"
+                                 alt="Football">
+                            <span>01</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-futbol"></i>
+                            </div>
+
+                            <h4>Football</h4>
+
+                            <p>
+                                Building teamwork, discipline and competitive
+                                spirit through regular training and tournaments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Volleyball -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/s6.jpg' %}"
+                                 alt="Volleyball">
+                            <span>02</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-volleyball-ball"></i>
+                            </div>
+
+                            <h4>Volleyball</h4>
+
+                            <p>
+                                Developing coordination, communication and
+                                sportsmanship through exciting competitions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Athletics -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/s7.jpg' %}"
+                                 alt="Athletics">
+                            <span>03</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-running"></i>
+                            </div>
+
+                            <h4>Athletics</h4>
+
+                            <p>
+                                Encouraging speed, endurance, determination
+                                and excellence in track and field events.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Netball -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/s5.jpg' %}"
+                                 alt="Netball">
+                            <span>04</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-basketball-ball"></i>
+                            </div>
+
+                            <h4>Netball</h4>
+
+                            <p>
+                                Promoting teamwork, agility, leadership
+                                and confidence through competitive play.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Basketball -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/s1.jpg' %}"
+                                 alt="Basketball">
+                            <span>05</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-basketball-ball"></i>
+                            </div>
+
+                            <h4>Basketball</h4>
+
+                            <p>
+                                Developing coordination, quick decision-making,
+                                teamwork and resilience on the court.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Handball -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/s1.jpg' %}"
+                                 alt="Handball">
+                            <span>06</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-hand-rock"></i>
+                            </div>
+
+                            <h4>Handball</h4>
+
+                            <p>
+                                Enhancing agility, teamwork and strategic
+                                thinking through competitive matches.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Badminton -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="sport-card">
+                        <div class="sport-image">
+                            <img src="{% static 'Singore/img/b2.jpeg' %}"
+                                 alt="Badminton">
+                            <span>07</span>
+                        </div>
+
+                        <div class="sport-content">
+                            <div class="sport-icon">
+                                <i class="fas fa-table-tennis"></i>
+                            </div>
+
+                            <h4>Badminton</h4>
+
+                            <p>
+                                Improving concentration, coordination,
+                                agility and endurance through the game.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Sports and Games End -->
+
+
+    <!-- Closing Section Start -->
+    <section class="student-life-closing py-5">
+
+        <div class="container text-center">
+
+            <span>SINGORE GIRLS SENIOR SCHOOL</span>
+
+            <h2>
+                Learn with Purpose. Participate with Passion.
+                <strong>Lead with Character.</strong>
+            </h2>
+
+            <p>
+                Every experience is an opportunity to grow, every talent
+                is worth developing and every student has the potential
+                to make a difference.
+            </p>
+
+        </div>
+
+    </section>
+    <!-- Closing Section End -->
+
+</section>
+<!-- Student Life Page End -->
+
+{% block footer %}
+{{ block.super }}
+{% endblock footer %}
+<!-- Footer End -->
+{% endblock body %}

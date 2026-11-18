@@ -1,0 +1,184 @@
+{% extends "singore/index.html" %}
+{% load static %}
+{% block current_page %}Departments{% endblock current_page %}
+{% block header_link %}
+
+{% endblock header_link %}
+
+{% block body %}
+{% block navigation %}
+{{ block.super }}
+{% endblock navigation %}
+
+
+<!-- Academics & Departments Start -->
+<section class="container-fluid academics-page py-5">
+
+    <div class="container py-4">
+
+        <!-- Page Introduction -->
+        <div class="section-title text-center mb-5 wow fadeInUp"
+             data-wow-delay="0.2s">
+
+            <h4 class="sub-title px-3 mb-2">
+                Academic Excellence
+            </h4>
+
+            <h1 class="display-5 mb-4">
+                Our Academic Departments
+            </h1>
+
+            <p class="academics-intro mx-auto">
+                Our academic departments provide quality learning
+                experiences that nurture knowledge, creativity,
+                practical skills and critical thinking. Through
+                dedicated teaching and learner-centred approaches,
+                we prepare students for future opportunities.
+            </p>
+
+        </div>
+
+
+        <!-- Departments Grid -->
+        <div class="row g-4">
+
+            <!-- Mathematics -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
+
+                    <div class="department-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+
+                    <h4>Mathematics</h4>
+
+                    <p>
+                        Developing logical reasoning, numerical
+                        understanding and problem-solving abilities
+                        through practical mathematical learning.
+                    </p>
+
+                    <div class="department-subjects">
+                        <span>Mathematics</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Languages -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
+
+                    <div class="department-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+
+                    <h4>Languages</h4>
+
+                    <p>
+                        Building effective communication, language
+                        proficiency, reading, writing and literary
+                        appreciation.
+                    </p>
+
+                    <div class="department-subjects">
+                        <span>English</span>
+                        <span>Kiswahili</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Humanities -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
+
+                    <div class="department-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+
+                    <h4>Humanities</h4>
+
+                    <p>
+                        Helping learners understand society, history,
+                        culture, geography and their responsibilities
+                        as citizens.
+                    </p>
+
+                    <div class="department-subjects">
+                        <span>History</span>
+                        <span>Geography</span>
+                        <span>Religious Education</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Applied & Technical -->
+            <div class="col-md-6 col-lg-3">
+                <div class="department-card">
+
+                    <div class="department-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <h4>Applied & Technical</h4>
+
+                    <p>
+                        Encouraging innovation, creativity and
+                        practical skills through technology,
+                        technical learning and applied knowledge.
+                    </p>
+
+                    <div class="department-subjects">
+                        <span>Computer Studies</span>
+                        <span>Creative Arts</span>
+                        <span>Technical Studies</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Academic Closing -->
+        <div class="academics-cta text-center mt-5">
+
+            <div class="academics-cta-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+
+            <h2>Learning Today, Leading Tomorrow</h2>
+
+            <p>
+                Our departments work together to provide a balanced
+                education that empowers every learner to discover
+                their abilities, develop essential skills and achieve
+                their full potential.
+            </p>
+
+            <a href="{% url 'cbe' %}"
+               class="btn academics-cta-btn rounded-pill py-3 px-5">
+                Explore CBE Pathways
+                <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Academics & Departments End -->
+
+
+
+<!-- Footer Start -->
+        {% block footer %}
+        {{ block.super }}
+        {% endblock footer %}
+        <!-- Footer End -->
+{% endblock body %}

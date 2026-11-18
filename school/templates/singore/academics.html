@@ -1,0 +1,405 @@
+{% extends "singore/index.html" %}
+{% load static %}
+{% block current_page %}Academics| {% endblock current_page %}
+{% block header_link %}
+
+{% endblock header_link %}
+
+{% block body %}
+{% block navigation %}
+{{ block.super }}
+{% endblock navigation %}
+
+<!-- Director of Studies Section -->
+<section id="director-message" class="director-message section">
+
+    <div class="container">
+
+        <!-- Section Header -->
+        <div class="director-header text-center" data-aos="fade-up">
+            
+            <h2>Director of Studies</h2>
+
+            <div class="director-divider"></div>
+
+            <p>
+                Inspiring academic excellence through effective leadership,
+                dedicated teaching and a commitment to every learner's success.
+            </p>
+        </div>
+
+        <div class="row align-items-center g-5 director-layout">
+
+            <!-- Director's Portrait -->
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="150">
+
+                <div class="director-portrait">
+
+                    <div class="portrait-frame">
+                        <img src="{% static 'singore/img/princi.jpg' %}"
+                             alt="Director of Studies - Singore Girls Senior School">
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+            <!-- Director's Message -->
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="250">
+
+                <div class="director-message-content">
+
+                                   
+
+                    <h3>Building a Culture of Academic Excellence</h3>
+
+                    <p class="message-greeting">
+                        Dear Students, Parents, Teachers and Visitors,
+                    </p>
+
+                    <p>
+                        It is my pleasure to welcome you to
+                        <strong>Singore Girls Senior School</strong>, where
+                        education is viewed as a foundation for personal
+                        growth, responsible leadership and lifelong success.
+                        We are committed to creating an academic environment
+                        that challenges, inspires and empowers every learner
+                        to achieve her full potential.
+                    </p>
+
+                    <p>
+                        As the Director of Studies, I oversee the coordination
+                        and implementation of our academic programmes, working
+                        closely with our dedicated teaching staff to promote
+                        effective curriculum delivery, quality instruction
+                        and consistent academic progress.
+                    </p>
+
+                    <p>
+                        We recognise that every learner has unique abilities
+                        and aspirations. Through continuous assessment,
+                        academic mentorship, guidance and appropriate
+                        interventions, we seek to identify individual needs
+                        and provide opportunities for every student to excel.
+                    </p>
+
+                    <p>
+                        I encourage our learners to embrace discipline,
+                        perseverance, curiosity and a genuine commitment
+                        to learning. Academic success is a shared
+                        responsibility, strengthened through the partnership
+                        between students, teachers, parents and the wider
+                        school community.
+                    </p>
+
+                    <p>
+                        Together, let us continue building a learning
+                        environment where excellence is pursued, potential
+                        is nurtured and every learner is prepared to make
+                        a meaningful contribution to society.
+                    </p>
+
+                    <!-- Signature -->
+                    <div class="director-signature">
+
+                        <div class="signature-line"></div>
+
+                        <h5>Director of Studies</h5>
+
+
+                        <span class="school-signature">
+                            Singore Girls Senior School
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End Director of Studies Section -->
+
+
+<!-- Departments Section -->
+<section id="departments" class="portfolio departments section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Academic Departments</h2>
+        <p>
+            Our academic departments provide quality teaching, practical learning
+            and guidance to nurture knowledge, skills and excellence.
+        </p>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+            <!-- Mathematics Department -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="image-wrapper">
+                        <img src="{% static 'singore/img/departments/mathematics.jpg' %}"
+                             alt="Mathematics Department"
+                             class="img-fluid" loading="lazy">
+
+                        <div class="hover-overlay">
+                            <div class="overlay-actions">
+                                <a href="{% static 'singore/img/departments/mathematics.jpg' %}"
+                                   class="glightbox action-btn"
+                                   data-gallery="departments">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <span class="category-badge">STEM</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Mathematics Department</h3>
+                        <p>
+                            Developing logical thinking, numerical ability,
+                            analytical skills and problem-solving competencies
+                            through mathematical learning.
+                        </p>
+
+                        <div class="project-meta">
+                            <div class="tech-tags">
+                                <span>Pure Mathematics</span>
+                                <span>Applied Mathematics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Sciences Department -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="project-card featured">
+                    <div class="image-wrapper">
+                        <img src="{% static 'singore/img/departments/science.jpg' %}"
+                             alt="Science Department"
+                             class="img-fluid" loading="lazy">
+
+                        <div class="hover-overlay">
+                            <div class="overlay-actions">
+                                <a href="{% static 'singore/img/departments/science.jpg' %}"
+                                   class="glightbox action-btn"
+                                   data-gallery="departments">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <span class="category-badge">STEM</span>
+                        <span class="featured-badge">
+                            <i class="bi bi-stars"></i> Practical Learning
+                        </span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Sciences Department</h3>
+                        <p>
+                            Inspiring scientific curiosity, experimentation
+                            and innovation while helping learners understand
+                            the natural world and technological advancement.
+                        </p>
+
+                        <div class="project-meta">
+                            <div class="tech-tags">
+                                <span>Biology</span>
+                                <span>Chemistry</span>
+                                <span>Physics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Languages and Literature -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card">
+                    <div class="image-wrapper">
+                        <img src="{% static 'singore/img/departments/languages.jpg' %}"
+                             alt="Languages and Literature Department"
+                             class="img-fluid" loading="lazy">
+
+                        <div class="hover-overlay">
+                            <div class="overlay-actions">
+                                <a href="{% static 'singore/img/departments/languages.jpg' %}"
+                                   class="glightbox action-btn"
+                                   data-gallery="departments">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <span class="category-badge">Languages</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Languages & Literature</h3>
+                        <p>
+                            Strengthening communication, reading, writing,
+                            creativity and critical interpretation through
+                            language and literary studies.
+                        </p>
+
+                        <div class="project-meta">
+                            <div class="tech-tags">
+                                <span>English</span>
+                                <span>Kiswahili</span>
+                                <span>Literature</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Applied Sciences -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                <div class="project-card">
+                    <div class="image-wrapper">
+                        <img src="{% static 'singore/img/departments/applied.jpg' %}"
+                             alt="Applied Sciences Department"
+                             class="img-fluid" loading="lazy">
+
+                        <div class="hover-overlay">
+                            <div class="overlay-actions">
+                                <a href="{% static 'singore/img/departments/applied.jpg' %}"
+                                   class="glightbox action-btn"
+                                   data-gallery="departments">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <span class="category-badge">Applied Learning</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Applied Sciences</h3>
+                        <p>
+                            Promoting practical knowledge, innovation,
+                            creativity and hands-on skills that connect
+                            classroom learning to everyday life.
+                        </p>
+
+                        <div class="project-meta">
+                            <div class="tech-tags">
+                                <span>Computer Studies</span>
+                                <span>Agriculture</span>
+                                <span>Technical Skills</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Humanities Department -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-card">
+                    <div class="image-wrapper">
+                        <img src="{% static 'singore/img/departments/humanities.jpg' %}"
+                             alt="Humanities Department"
+                             class="img-fluid" loading="lazy">
+
+                        <div class="hover-overlay">
+                            <div class="overlay-actions">
+                                <a href="{% static 'singore/img/departments/humanities.jpg' %}"
+                                   class="glightbox action-btn"
+                                   data-gallery="departments">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <span class="category-badge">Humanities</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Humanities Department</h3>
+                        <p>
+                            Equipping learners with social awareness,
+                            historical understanding, cultural appreciation
+                            and responsible citizenship.
+                        </p>
+
+                        <div class="project-meta">
+                            <div class="tech-tags">
+                                <span>History</span>
+                                <span>Geography</span>
+                                <span>Religious Education</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Creative Arts and Sports -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+                <div class="project-card">
+                    <div class="image-wrapper">
+                        <img src="{% static 'singore/img/s7.jpg' %}"
+                             alt="Creative Arts and Sports Department"
+                             class="img-fluid" loading="lazy">
+
+                        <div class="hover-overlay">
+                            <div class="overlay-actions">
+                                <a href="{% static 'singore/img/s7.jpg' %}"
+                                   class="glightbox action-btn"
+                                   data-gallery="departments">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <span class="category-badge">Creative Development</span>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Creative Arts & Sports</h3>
+                        <p>
+                            Nurturing talent, teamwork, self-expression,
+                            physical fitness and creativity through
+                            artistic and sporting activities.
+                        </p>
+
+                        <div class="project-meta">
+                            <div class="tech-tags">
+                                <span>Creative Arts</span>
+                                <span>Music</span>
+                                <span>Sports</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+       
+
+    </div>
+
+</section>
+<!-- /Departments Section -->
+
+{% block footer %}
+ {{ block.super }}
+ {% endblock footer %}
+ {% endblock body %}

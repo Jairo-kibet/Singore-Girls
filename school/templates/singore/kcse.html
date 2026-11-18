@@ -1,0 +1,595 @@
+{% extends "singore/index.html" %}
+{% load static %}
+{% block current_page %}Ksce| {% endblock current_page %}
+{% block header_link %}
+
+{% endblock header_link %}
+
+{% block body %}
+{% block navigation %}
+{{ block.super }}
+{% endblock navigation %}
+{% load static %}
+
+<!-- KCSE Results Page Start -->
+<section class="kcse-results-page">
+
+    <!-- Page Hero Start -->
+    <section class="kcse-hero">
+        <div class="kcse-hero-overlay"></div>
+
+        <div class="container kcse-hero-content">
+
+            <span class="kcse-hero-label">
+                <span></span>
+                ACADEMIC EXCELLENCE
+            </span>
+
+            <h1>
+                KCSE Examination
+                <span>Results</span>
+            </h1>
+
+            <p>
+                Celebrating academic achievement, commitment to excellence
+                and the determination of our students to achieve their
+                educational aspirations.
+            </p>
+
+            <a href="#performance" class="kcse-hero-btn">
+                Explore Performance
+                <i class="fas fa-arrow-down ms-2"></i>
+            </a>
+
+        </div>
+
+        <div class="kcse-hero-footer">
+            <span>singore BOYS NATIONAL SCHOOL</span>
+            <span>DISCIPLINE • DETERMINATION • EXCELLENCE</span>
+        </div>
+    </section>
+    <!-- Page Hero End -->
+
+
+    <!-- Introduction Start -->
+    <section class="container kcse-introduction py-5">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <div class="section-title text-start mb-4">
+
+                    <h4 class="sub-title pe-3 mb-0">
+                        Our Academic Performance
+                    </h4>
+
+                    <h1 class="display-5 mb-4">
+                        A Tradition of Academic Excellence
+                    </h1>
+
+                </div>
+
+                <p>
+                    At singore Boys National School, academic achievement
+                    is driven by hard work, discipline, effective teaching
+                    and a supportive learning environment.
+                </p>
+
+                <p>
+                    Our KCSE performance reflects the commitment of our
+                    students, teachers, parents and the entire school
+                    community towards achieving educational excellence.
+                </p>
+
+                <p>
+                    We continuously encourage learners to pursue their
+                    academic ambitions, develop their abilities and
+                    prepare for successful transitions to higher
+                    education and future careers.
+                </p>
+
+                <div class="kcse-intro-highlight">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>
+                        Inspiring every learner to pursue excellence
+                        and achieve their full potential.
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="kcse-intro-image">
+                    <img src="{% static 'singore/img/s4.jpg' %}"
+                         alt="Students celebrating academic achievement"
+                         class="img-fluid">
+
+                    <div class="kcse-image-caption">
+                        <i class="fas fa-award"></i>
+                        <div>
+                            <strong>Excellence Through Hard Work</strong>
+                            <span>Our commitment to academic success</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Introduction End -->
+
+
+    <!-- Performance Summary Start -->
+    <section class="kcse-performance-section py-5" id="performance">
+
+        <div class="container py-4">
+
+            <div class="section-title text-center mb-5">
+            <div class=" sub-style">
+                <h4 class="sub-title px-3 mb-0">
+                    Examination Performance
+                </h4>
+             </div>
+                <h1 class="display-5 mb-3">
+                    KCSE Performance Overview
+                </h1>
+
+                <p class="kcse-section-description">
+                    A snapshot of our examination performance and
+                    academic achievements.
+                </p>
+
+            </div>
+
+
+            <!-- Results Year Selector -->
+            <div class="kcse-year-heading">
+                <div>
+                    <span>EXAMINATION RESULTS</span>
+                    <h3>KCSE 2026</h3>
+                </div>
+
+                <div class="kcse-year-status">
+                    <i class="fas fa-calendar-alt"></i>
+                    Examination Summary
+                </div>
+            </div>
+
+
+            <!-- Performance Cards -->
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="kcse-stat-card">
+                        <div class="kcse-stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+
+                        <span>Mean Score</span>
+                        <h2>XX.XX</h2>
+                        <small>KCSE Mean Score</small>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="kcse-stat-card">
+                        <div class="kcse-stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+
+                        <span>Candidates</span>
+                        <h2>XXX</h2>
+                        <small>Total candidates examined</small>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="kcse-stat-card">
+                        <div class="kcse-stat-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+
+                        <span>University Qualifiers</span>
+                        <h2>XX</h2>
+                        <small>Grades meeting the applicable direct-entry threshold</small>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="kcse-stat-card">
+                        <div class="kcse-stat-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+
+                        <span>Top Grade</span>
+                        <h2>A</h2>
+                        <small>Highest grade attained</small>
+                    </div>
+                </div>
+
+            </div>
+
+           
+
+        </div>
+
+    </section>
+    <!-- Performance Summary End -->
+
+
+    <!-- Grade Distribution Start -->
+    <section class="kcse-grade-section py-5">
+
+        <div class="container py-4">
+
+            <div class="section-title text-center mb-5">
+
+                <h4 class="sub-title px-3 mb-0">
+                    Academic Achievement
+                </h4>
+
+                <h1 class="display-5 mb-3">
+                  2026  Grade Distribution
+                </h1>
+
+                <p class="kcse-section-description">
+                    An overview of the grades attained by our candidates
+                    in the KCSE examination.
+                </p>
+
+            </div>
+
+
+            <div class="kcse-grade-table-wrapper">
+
+                <div class="kcse-table-heading">
+                    <div>
+                        <h4>KCSE Grade Analysis</h4>
+                        <p>Examination year: 20XX</p>
+                    </div>
+
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+
+
+                <div class="table-responsive">
+
+                    <table class="table kcse-grade-table mb-0">
+
+                        <thead>
+                            <tr>
+                                <th>Grade</th>
+                                <th>Grade Points</th>
+                                <th>Number of Candidates</th>
+                                <th>Percentage</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td><span class="grade-badge grade-a">A</span></td>
+                                <td>12</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-a-minus">A-</span></td>
+                                <td>11</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-b-plus">B+</span></td>
+                                <td>10</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-b">B</span></td>
+                                <td>9</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-b-minus">B-</span></td>
+                                <td>8</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-c-plus">C+</span></td>
+                                <td>7</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-c">C</span></td>
+                                <td>6</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-c-minus">C-</span></td>
+                                <td>5</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-d-plus">D+</span></td>
+                                <td>4</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-d">D</span></td>
+                                <td>3</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-d-minus">D-</span></td>
+                                <td>2</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                            <tr>
+                                <td><span class="grade-badge grade-e">E</span></td>
+                                <td>1</td>
+                                <td>XX</td>
+                                <td>XX%</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Grade Distribution End -->
+
+
+    <!-- Historical Results Start -->
+    <section class="kcse-history-section py-5">
+
+        <div class="container py-4">
+
+            <div class="section-title text-center mb-5">
+             <div class=" sub-style">
+                <h4 class="sub-title px-3 mb-0">
+                    Our Progress
+                </h4>
+             </div>
+                <h1 class="display-5 mb-3">
+                    KCSE Performance Over the Years
+                </h1>
+
+                <p class="kcse-section-description">
+                    Tracking academic performance and celebrating
+                    progress across examination years.
+                </p>
+
+            </div>
+
+
+            <div class="kcse-history-table-wrapper">
+
+                <div class="table-responsive">
+
+                    <table class="table kcse-history-table mb-0">
+
+                        <thead>
+                            <tr>
+                                <th>Examination Year</th>
+                                <th>Mean Score</th>
+                                <th>Candidates</th>
+                                <th>University Qualifiers</th>
+                                <th>Top Grade</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>20XX</td>
+                                <td>XX.XX</td>
+                                <td>XXX</td>
+                                <td>XX</td>
+                                <td><span class="history-grade">A</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>20XX</td>
+                                <td>XX.XX</td>
+                                <td>XXX</td>
+                                <td>XX</td>
+                                <td><span class="history-grade">A-</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>20XX</td>
+                                <td>XX.XX</td>
+                                <td>XXX</td>
+                                <td>XX</td>
+                                <td><span class="history-grade">B+</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>20XX</td>
+                                <td>XX.XX</td>
+                                <td>XXX</td>
+                                <td>XX</td>
+                                <td><span class="history-grade">A-</span></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+            <p class="kcse-placeholder-note text-center mt-3">
+                Historical results shown above are sample placeholders.
+            </p>
+
+        </div>
+
+    </section>
+    <!-- Historical Results End -->
+
+
+    <!-- Academic Excellence Start -->
+    <!-- <section class="kcse-excellence-section py-5">
+
+        <div class="container py-4">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <div class="section-title text-start mb-4">
+
+                        <h4 class="sub-title pe-3 mb-0">
+                            The Foundation of Success
+                        </h4>
+
+                        <h1 class="display-5 mb-4">
+                            What Drives Our Academic Excellence?
+                        </h1>
+
+                    </div>
+
+                    <p>
+                        Academic success is a collective effort. We
+                        recognize the contribution of teachers,
+                        students, parents and the entire school
+                        community in creating an environment that
+                        supports learning and achievement.
+                    </p>
+
+                    <div class="kcse-excellence-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div>
+                            <h5>Dedicated Teaching</h5>
+                            <p>
+                                Supporting learners through effective
+                                instruction, guidance and academic support.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="kcse-excellence-item">
+                        <i class="fas fa-book-open"></i>
+                        <div>
+                            <h5>Commitment to Learning</h5>
+                            <p>
+                                Encouraging discipline, independent study
+                                and a positive attitude towards learning.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="kcse-excellence-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <h5>Collective Responsibility</h5>
+                            <p>
+                                Strengthening collaboration between
+                                students, teachers, parents and school
+                                leadership.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="kcse-excellence-item">
+                        <i class="fas fa-bullseye"></i>
+                        <div>
+                            <h5>Continuous Improvement</h5>
+                            <p>
+                                Promoting consistent effort, academic
+                                monitoring and a culture of excellence.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="kcse-excellence-image">
+                        <img src="{% static 'singore/img/academic-excellence.jpg' %}"
+                             alt="Students studying together"
+                             class="img-fluid">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+    <!-- Academic Excellence End -->
+
+
+    <!-- Closing Banner Start -->
+    <section class="kcse-closing-section py-5">
+
+        <div class="container text-center">
+
+            <span>OUR COMMITMENT</span>
+
+            <h2>
+                Excellence Is Not an Act,
+                <strong>It Is a Culture.</strong>
+            </h2>
+
+            <p>
+                Together, we continue to inspire, guide and empower
+                learners to reach their highest academic potential.
+            </p>
+
+            <a href="{% url 'contact' %}" class="kcse-contact-btn">
+                Contact Our School
+                <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+
+        </div>
+
+    </section>
+    <!-- Closing Banner End -->
+
+</section>
+<!-- KCSE Results Page End -->
+{% block footer %}
+{{ block.super }}
+{% endblock footer %}
+<!-- Footer End -->
+{% endblock body %}

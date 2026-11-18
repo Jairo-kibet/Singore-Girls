@@ -1,0 +1,699 @@
+{% extends "singore/index.html" %}
+{% load static %}
+{% block current_page %}Cbe| {% endblock current_page %}
+{% block header_link %}
+
+{% endblock header_link %}
+
+{% block body %}
+{% block navigation %}
+{{ block.super }}
+{% endblock navigation %}
+
+
+
+<!-- CBE Page Start -->
+<section class="container-fluid cbe-page py-5">
+
+    <div class="container py-4">
+
+        <!-- Page Introduction -->
+        <div class="section-title text-center mb-5 wow fadeInUp"
+             data-wow-delay="0.2s">
+             <div class=" sub-style">
+            <h4 class="sub-title px-3 mb-2">
+                Competency-Based Education
+            </h4>
+        </div>
+            <h1 class="display-5 mb-4">
+                Learning Beyond the Classroom
+            </h1>
+
+            <p class="cbe-intro mx-auto">
+                At Singore Girls Senior School, we recognize education
+                as more than the acquisition of academic knowledge.
+                Competency-Based Education empowers learners to develop
+                practical skills, discover their talents, solve real-world
+                problems and become responsible members of society.
+            </p>
+
+        </div>
+
+
+        <!-- Meaning of CBE -->
+        <div class="row align-items-center g-5 mb-5">
+
+            <div class="col-lg-6 wow fadeInLeft"
+                 data-wow-delay="0.2s">
+
+                <div class="cbe-image-wrapper">
+                    <img src="{% static 'Singore/img/11.jpg' %}"
+                         class="img-fluid w-100"
+                         alt="Students participating in competency-based learning">
+
+                    <div class="cbe-image-caption">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Learning Through Knowledge and Practice</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6 wow fadeInRight"
+                 data-wow-delay="0.4s">
+
+                <div class="section-title text-start mb-4">
+
+                    <h4 class="sub-title pe-3 mb-2">
+                        Understanding CBE
+                    </h4>
+
+                    <h2 class="display-6 mb-4">
+                        What is Competency-Based Education?
+                    </h2>
+
+                </div>
+
+                <p class="cbe-text">
+                    Competency-Based Education (CBE) is a learner-centred
+                    approach that focuses on what students know,
+                    understand and can demonstrate through practical
+                    application of knowledge and skills.
+                </p>
+
+                <p class="cbe-text">
+                    Unlike approaches that place greater emphasis on
+                    memorization and time spent in the classroom, CBE
+                    emphasizes the development and demonstration of
+                    competencies. Learners are encouraged to apply
+                    what they learn, think critically, work collaboratively
+                    and find solutions to everyday challenges.
+                </p>
+
+                <p class="cbe-text">
+                    In Kenya, the Competency-Based Curriculum (CBC)
+                    provides the framework for developing these
+                    competencies throughout basic education, including
+                    Senior School. The approach prepares learners for
+                    further education, employment, innovation and
+                    responsible citizenship.
+                </p>
+
+                <!-- <div class="cbe-highlight">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>
+                        The focus is not simply on what learners remember,
+                        but on what they can do with what they have learned.
+                    </p>
+                </div> -->
+
+            </div>
+
+        </div>
+
+
+        <!-- Core Principles -->
+        <div class="cbe-principles py-5 mb-5">
+
+            <div class="section-title text-center mb-5">
+             <div class=" sub-style">
+                <h4 class="sub-title px-3 mb-2">
+                    The CBE Approach
+                </h4>
+            </div>
+                <h2 class="display-6 mb-3">
+                    Core Principles of Competency-Based Learning
+                </h2>
+
+                <p class="cbe-intro mx-auto">
+                    CBE promotes meaningful learning through practical
+                    experiences, learner participation and continuous
+                    development of abilities.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Principle 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="cbe-principle-card">
+
+                        <div class="cbe-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+
+                        <h5>Competency Mastery</h5>
+
+                        <p>
+                            Learners develop and demonstrate the
+                            knowledge, skills and attitudes required
+                            to perform tasks effectively.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- Principle 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="cbe-principle-card">
+
+                        <div class="cbe-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+
+                        <h5>Learner-Centred Learning</h5>
+
+                        <p>
+                            Learning activities recognize individual
+                            abilities, interests, talents and different
+                            learning needs.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- Principle 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="cbe-principle-card">
+
+                        <div class="cbe-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+
+                        <h5>Practical Assessment</h5>
+
+                        <p>
+                            Learners demonstrate their understanding
+                            through projects, practical activities,
+                            assignments and other assessments.
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- Principle 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="cbe-principle-card">
+
+                        <div class="cbe-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+
+                        <h5>Continuous Feedback</h5>
+
+                        <p>
+                            Regular feedback helps learners identify
+                            strengths, address challenges and improve
+                            their performance.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Seven Core Competencies -->
+        <div class="cbe-competencies mb-5">
+
+            <div class="section-title text-center mb-5">
+
+                <h4 class="sub-title px-3 mb-2">
+                    Kenya's CBC Framework
+                </h4>
+
+                <h2 class="display-6 mb-3">
+                    The Seven Core Competencies
+                </h2>
+
+                <p class="cbe-intro mx-auto">
+                    The Kenyan curriculum develops seven key competencies
+                    that equip learners with the abilities and values
+                    needed to succeed in life.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">01</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h5>Communication and Collaboration</h5>
+                        <p>
+                            Expressing ideas clearly, listening to others
+                            and working effectively in teams.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">02</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h5>Critical Thinking and Problem Solving</h5>
+                        <p>
+                            Analysing situations, making informed
+                            decisions and finding solutions to challenges.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">03</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h5>Imagination and Creativity</h5>
+                        <p>
+                            Developing original ideas, exploring
+                            possibilities and creating innovative solutions.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">04</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h5>Citizenship</h5>
+                        <p>
+                            Demonstrating responsibility, respect,
+                            patriotism and active participation in society.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">05</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <h5>Learning to Learn</h5>
+                        <p>
+                            Developing curiosity, independent learning
+                            habits and the ability to acquire new knowledge.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">06</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <h5>Self-Efficacy</h5>
+                        <p>
+                            Building confidence, resilience, self-awareness
+                            and belief in one's ability to achieve goals.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="cbe-competency-card">
+                        <span class="competency-number">07</span>
+                        <div class="competency-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h5>Digital Literacy</h5>
+                        <p>
+                            Using digital technologies responsibly
+                            to access information, communicate and innovate.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- How Learners Are Assessed -->
+        <div class="row align-items-center g-5 mb-5">
+
+            <div class="col-lg-6 wow fadeInLeft"
+                 data-wow-delay="0.2s">
+
+                <div class="section-title text-start mb-4">
+
+                    <h4 class="sub-title pe-3 mb-2">
+                        Measuring Progress
+                    </h4>
+
+                    <h2 class="display-6 mb-4">
+                        How Are Learners Assessed?
+                    </h2>
+
+                </div>
+
+                <p class="cbe-text">
+                    Assessment under the competency-based approach
+                    goes beyond traditional written examinations.
+                    It considers the knowledge, practical abilities,
+                    values and skills that learners demonstrate
+                    throughout the learning process.
+                </p>
+
+                <p class="cbe-text">
+                    Teachers use different assessment methods to
+                    monitor progress, identify learning needs and
+                    provide feedback. This allows learners to
+                    demonstrate their abilities in different ways
+                    and work towards achieving the expected learning
+                    outcomes.
+                </p>
+
+                <div class="assessment-list">
+
+                    <div>
+                        <i class="fas fa-check-circle"></i>
+                        Classwork and assignments
+                    </div>
+
+                    <div>
+                        <i class="fas fa-check-circle"></i>
+                        Practical activities and projects
+                    </div>
+
+                    <div>
+                        <i class="fas fa-check-circle"></i>
+                        Portfolios and evidence of learning
+                    </div>
+
+                    <div>
+                        <i class="fas fa-check-circle"></i>
+                        Teacher observations and feedback
+                    </div>
+
+                    <div>
+                        <i class="fas fa-check-circle"></i>
+                        National assessments
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6 wow fadeInRight"
+                 data-wow-delay="0.4s">
+
+                <div class="assessment-image-wrapper">
+                    <img src="{% static 'Singore/img/11.jpg' %}"
+                         class="img-fluid w-100"
+                         alt="Learners demonstrating their skills">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Senior School Pathways -->
+        <div class="cbe-pathways py-5 mb-5">
+
+            <div class="section-title text-center mb-5">
+             <div class=" sub-style">
+                <h4 class="sub-title px-3 mb-2">
+                    Senior School
+                </h4>
+             </div>
+                <h2 class="display-6 mb-3">
+                    Explore the Three Learning Pathways
+                </h2>
+
+                <p class="cbe-intro mx-auto">
+                    Senior School provides learners with opportunities
+                    to pursue learning pathways aligned with their
+                    interests, abilities, talents and future aspirations.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- STEM -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="cbe-pathway-card">
+
+                        <div class="pathway-image">
+                            <img src="{% static 'singore/img/s3.jpg' %}"
+                                 alt="Science and technology learning">
+                        </div>
+
+                        <div class="pathway-content">
+
+                            <span class="pathway-label">Pathway 01</span>
+
+                            <h4>STEM</h4>
+
+                            <p class="pathway-subtitle">
+                                Science, Technology, Engineering and Mathematics
+                            </p>
+
+                            <p>
+                                This pathway develops scientific thinking,
+                                mathematical reasoning, technological
+                                innovation and problem-solving abilities.
+                            </p>
+
+                            <h6>Career Opportunities</h6>
+
+                            <p class="career-text">
+                                Medicine, Engineering, Information Technology,
+                                Research, Data Science and Environmental Science.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Social Sciences -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="cbe-pathway-card">
+
+                        <div class="pathway-image">
+                            <img src="{% static 'singore/img/s4.jpg' %}"
+                                 alt="Social sciences learning">
+                        </div>
+
+                        <div class="pathway-content">
+
+                            <span class="pathway-label">Pathway 02</span>
+
+                            <h4>Social Sciences</h4>
+
+                            <p class="pathway-subtitle">
+                                Humanities, Languages and Business Studies
+                            </p>
+
+                            <p>
+                                This pathway nurtures communication,
+                                leadership, social understanding,
+                                entrepreneurship and analytical skills.
+                            </p>
+
+                            <h6>Career Opportunities</h6>
+
+                            <p class="career-text">
+                                Law, Education, Business, Journalism,
+                                Governance, Economics and Public Administration.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Arts and Sports Science -->
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="cbe-pathway-card">
+
+                        <div class="pathway-image">
+                            <img src="{% static 'singore/img/s1.jpg' %}"
+                                 alt="Arts and sports learning">
+                        </div>
+
+                        <div class="pathway-content">
+
+                            <span class="pathway-label">Pathway 03</span>
+
+                            <h4>Arts and Sports Science</h4>
+
+                            <p class="pathway-subtitle">
+                                Creative Arts, Performance and Sports
+                            </p>
+
+                            <p>
+                                This pathway supports creative expression,
+                                artistic development, physical fitness
+                                and sporting talent.
+                            </p>
+
+                            <h6>Career Opportunities</h6>
+
+                            <p class="career-text">
+                                Fine Arts, Music, Design, Media, Sports
+                                Management, Coaching and Performing Arts.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="pathway-note text-center mt-4">
+                <i class="fas fa-info-circle me-2"></i>
+                Subject combinations and pathway availability should be
+                confirmed through the school's official Senior School
+                academic programme.
+            </p>
+
+        </div>
+
+
+        <!-- Learning Approach -->
+        <div class="cbe-learning-approach mb-5">
+
+            <div class="section-title text-center mb-5">
+
+                <h4 class="sub-title px-3 mb-2">
+                    The Learning Journey
+                </h4>
+
+                <h2 class="display-6 mb-3">
+                    How Competency-Based Learning Works
+                </h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="learning-step">
+                        <span>01</span>
+                        <h5>Discover Interests</h5>
+                        <p>
+                            Learners explore their abilities, interests
+                            and talents.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="learning-step">
+                        <span>02</span>
+                        <h5>Choose a Pathway</h5>
+                        <p>
+                            Learners select a pathway that aligns
+                            with their strengths and aspirations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="learning-step">
+                        <span>03</span>
+                        <h5>Develop Competencies</h5>
+                        <p>
+                            Learners acquire knowledge and apply
+                            skills through meaningful activities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="learning-step">
+                        <span>04</span>
+                        <h5>Demonstrate Achievement</h5>
+                        <p>
+                            Learners demonstrate their progress
+                            through assessments and practical work.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Closing Call to Action -->
+        <div class="cbe-cta text-center">
+
+            <h2>Building Skills. Inspiring Innovation. Shaping Futures.</h2>
+
+            <p>
+                At Singore Girls Senior School, education is a journey
+                of discovering potential, developing abilities and
+                preparing learners to make a meaningful contribution
+                to society.
+            </p>
+
+            <a href="{% url 'contact' %}"
+               class="btn cbe-cta-btn rounded-pill py-3 px-5">
+                Contact Our School
+                <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CBE Page End -->
+
+
+
+{% block footer %}
+{{ block.super }}
+{% endblock footer %}
+<!-- Footer End -->
+{% endblock body %}
